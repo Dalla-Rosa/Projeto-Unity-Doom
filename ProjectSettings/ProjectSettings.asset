@@ -930,11 +930,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: ec5a0b47-631a-41ca-9657-20a96af1bade
+  cloudProjectId: e0baf321-b3ac-43cf-b58e-4aa7cce004f8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Doom - Projeto
-  organizationId: dalla_rosa
+  projectName: Projeto-Unity-Doom
+  organizationId: brubsync
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Doom E1M1: Hangar - Map
+* source:	https://sketchfab.com/3d-models/doom-e1m1-hangar-map-2148fb6a3fe7454b901fcea67d70b318
+* author:	vrchris (https://sketchfab.com/vrchris)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Doom E1M1: Hangar - Map" (https://sketchfab.com/3d-models/doom-e1m1-hangar-map-2148fb6a3fe7454b901fcea67d70b318) by vrchris (https://sketchfab.com/vrchris) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

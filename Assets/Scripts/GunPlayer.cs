@@ -61,7 +61,6 @@ public class GunPlayer : MonoBehaviour
                         enemy.GetDamage(bigDamage);
                     }
 
-                    enemy.GetDamage(bigDamage);
 
                     Debug.DrawRay(transform.position, dir, Color.green);
                 }

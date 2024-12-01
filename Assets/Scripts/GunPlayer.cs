@@ -4,8 +4,15 @@ using UnityEngine;
 public class GunPlayer : MonoBehaviour
 {
 
-    public float range;
-    public float verticalRange;
+    public float range = 20f;
+    public float verticalRange = 20f;
+
+    public float fireRate = 1;
+    public float bigDamage = 2f;
+    public float smallDamage = 1f;
+    public LayerMask raycastLayerMask;
+
+    private float nextTimeToFire;
 
     private BoxCollider gunTrigger;
 
@@ -21,27 +28,70 @@ public class GunPlayer : MonoBehaviour
 
     void Update()
     {
-        RaycastHit hit;
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.yellow);
-        // Does the ray intersect any objects excluding the player layer
-        if (Input.GetMouseButtonDown(0)) {
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+        if (Input.GetMouseButtonDown(0) && Time.time > nextTimeToFire)
+        {
+            Fire();
+        }
 
+    }
+
+
+    void Fire()
+    {
+        foreach (var enemy in enemyManager.enemiesInTrigger)
+        {
+            var dir = enemy.transform.position - transform.position;
+
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, dir, out hit, range * 1.5f, raycastLayerMask))
             {
-                Enemy enemy = hit.transform.GetComponent<Enemy>();
-                if (enemy)
+                if (hit.transform == enemy.transform)
                 {
-                    enemy.GetDamage(10);
+
+                    float dist = Vector3.Distance(enemy.transform.position, transform.position);
+
+                    if (dist > range * 0.5)
+                    {
+                        // se estiver longe leva pouco dano
+                        enemy.GetDamage(smallDamage);
+                    }
+                    else
+                    {
+                        // se estiver perto leva bastante dano
+                        enemy.GetDamage(bigDamage);
+                    }
+
+                    enemy.GetDamage(bigDamage);
+
+                    Debug.DrawRay(transform.position, dir, Color.green);
                 }
 
-                Debug.Log("Did Hit");
             }
-            else
-            {
 
-                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-                Debug.Log("Did not Hit");
-            }
         }
-    }   
+
+
+        nextTimeToFire = Time.time + fireRate;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Enemy enemy = other.transform.GetComponent<Enemy>();
+        if (enemy)
+        {
+            enemyManager.AddEnemy(enemy);
+        }
+    
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Enemy enemy = other.transform.GetComponent<Enemy>();
+        if (enemy)
+        {
+            enemyManager.RemoveEnemy(enemy);
+        }
+
+    }
+
 }

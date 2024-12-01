@@ -38,6 +38,11 @@ public class GunPlayer : MonoBehaviour
 
     void Fire()
     {
+
+        GetComponent<AudioSource>().Stop();
+        GetComponent<AudioSource>().Play();
+
+
         foreach (var enemy in enemyManager.enemiesInTrigger)
         {
             var dir = enemy.transform.position - transform.position;
@@ -86,7 +91,7 @@ public class GunPlayer : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         Enemy enemy = other.transform.GetComponent<Enemy>();
-        if (enemy)
+        if (enemy != null)
         {
             enemyManager.RemoveEnemy(enemy);
         }

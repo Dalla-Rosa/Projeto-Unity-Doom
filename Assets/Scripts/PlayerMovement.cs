@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     
-    public float playerSpeed = 10f;
+    public float playerSpeed = 30f;
     public float momentumDamping = 5f;
     private CharacterController CC;
     private Vector3 inputVector;

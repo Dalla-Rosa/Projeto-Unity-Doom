@@ -37,7 +37,7 @@ public class GunPlayer : MonoBehaviour
 
 
     void Fire()
-    {
+    { 
 
         GetComponent<AudioSource>().Stop();
         GetComponent<AudioSource>().Play();

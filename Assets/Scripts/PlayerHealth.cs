@@ -51,6 +51,12 @@ public class PlayerHealth : MonoBehaviour
         else
         {
             health -= damage;
+            AudioSource audioSource = GetComponent<AudioSource>();
+            if (audioSource != null)
+            {
+                
+                audioSource.Play();
+            }
         }
 
         if(health <=0)

@@ -33,7 +33,6 @@ public class AutomaticDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("TESAO");
         if (other.gameObject.tag == "Player")
         {
             jogadorProximo = true;

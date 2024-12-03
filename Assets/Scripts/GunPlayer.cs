@@ -18,16 +18,27 @@ public class GunPlayer : MonoBehaviour
 
     private BoxCollider gunTrigger;
 
-    public EnemyManager enemyManager;
+    public EnemyManager enemyManager;  
 
     void Start()
     {
+        if (enemyManager == null)
+        {
+            Debug.LogError("EnemyManager não foi atribuído!");
+        }
+
         gunTrigger = GetComponent<BoxCollider>();
         gunTrigger.size = new Vector3(1, verticalRange, range);
         gunTrigger.center = new Vector3(0, 0, range * 0.5f);
 
-        
-        CanvasManager.Instance.updateAmmo(ammo);
+        if (CanvasManager.Instance != null)
+        {
+            CanvasManager.Instance.updateAmmo(ammo);
+        }
+        else
+        {
+            Debug.LogError("CanvasManager não encontrado!");
+        }
     }
 
     void Update()
@@ -40,91 +51,99 @@ public class GunPlayer : MonoBehaviour
 
     void Fire()
     {
-        //Collider[] enemyColliders;
-        //enemyColliders = physics.OverlapSphere(transform.position, gunShotRadius, enemyLayerMask);
-
-        GetComponent<AudioSource>().Stop();
-        GetComponent<AudioSource>().Play();
-
-        foreach (var enemy in enemyManager.enemiesInTrigger)
+        AudioSource audioSource = GetComponent<AudioSource>();
+        if (audioSource != null)
         {
-            var dir = enemy.transform.position - transform.position;
+            audioSource.Stop();
+            audioSource.Play();
+        }
+        else
+        {
+            Debug.LogError("AudioSource não encontrado no GunPlayer!");
+            return;
+        }
 
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, dir, out hit, range * 1.5f, raycastLayerMask))
+        if (enemyManager != null && enemyManager.enemiesInTrigger != null)
+        {
+            foreach (var enemy in enemyManager.enemiesInTrigger)
             {
-                if (hit.transform == enemy.transform)
+                var dir = enemy.transform.position - transform.position;
+
+                RaycastHit hit;
+                if (Physics.Raycast(transform.position, dir, out hit, range * 1.5f, raycastLayerMask))
                 {
-                    float dist = Vector3.Distance(enemy.transform.position, transform.position);
-
-                    if (dist > range * 0.5f)
+                    if (hit.transform == enemy.transform)
                     {
-                        
-                        enemy.GetDamage(smallDamage);
-                    }
-                    else
-                    {
-                        
-                        enemy.GetDamage(bigDamage);
-                    }
+                        float dist = Vector3.Distance(enemy.transform.position, transform.position);
 
-                    Debug.DrawRay(transform.position, dir, Color.green);
+                        if (dist > range * 0.5f)
+                        {
+                            enemy.GetDamage(smallDamage);
+                        }
+                        else
+                        {
+                            enemy.GetDamage(bigDamage);
+                        }
+
+                        Debug.DrawRay(transform.position, dir, Color.green);
+                    }
                 }
             }
+        }
+        else
+        {
+            Debug.LogError("enemyManager ou enemiesInTrigger não estão definidos corretamente.");
         }
 
         nextTimeToFire = Time.time + fireRate;
 
-        
         ammo--;
-        CanvasManager.Instance.updateAmmo(ammo);
+        if (CanvasManager.Instance != null)
+        {
+            CanvasManager.Instance.updateAmmo(ammo);
+        }
     }
 
     public void GiveAmmo(int amount, GameObject pickup)
     {
-        
         if (pickup == null)
         {
             Debug.LogError("Pickup não está definido! Não pode adicionar munição.");
-            return; 
+            return;
         }
 
-        
         if (ammo < maxAmmo)
         {
             ammo += amount;
-            Destroy(pickup);  
+            Destroy(pickup);
         }
 
-        
         if (ammo > maxAmmo)
         {
             ammo = maxAmmo;
         }
 
-        
-        CanvasManager.Instance.updateAmmo(ammo);
+        if (CanvasManager.Instance != null)
+        {
+            CanvasManager.Instance.updateAmmo(ammo);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
         Enemy enemy = other.transform.GetComponent<Enemy>();
-        if (enemy)
+        if (enemy != null)
         {
-            enemyManager.AddEnemy(enemy);  
+            enemyManager.AddEnemy(enemy);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-       
         Enemy enemy = other.transform.GetComponent<Enemy>();
         if (enemy != null)
         {
-            enemyManager.RemoveEnemy(enemy);  
+            enemyManager.RemoveEnemy(enemy);
         }
     }
 }
-
-

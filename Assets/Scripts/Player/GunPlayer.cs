@@ -10,13 +10,11 @@ public class GunPlayer : MonoBehaviour
     public float bigDamage = 2f;
     public float smallDamage = 1f;
     public LayerMask raycastLayerMask;
-    bool isShooting = false;
-    Animator animator;
 
-    private float nextTimeToFire;
+    public float nextTimeToFire;
 
     public int maxAmmo;
-    private int ammo = 20;
+    public int ammo = 20;
 
     private BoxCollider gunTrigger;
 
@@ -32,7 +30,6 @@ public class GunPlayer : MonoBehaviour
         gunTrigger = GetComponent<BoxCollider>();
         gunTrigger.size = new Vector3(1, verticalRange, range);
         gunTrigger.center = new Vector3(0, 0, range * 0.5f);
-        animator = GetComponent<Animator>();
 
         if (CanvasManager.Instance != null)
         {
@@ -48,11 +45,7 @@ public class GunPlayer : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && Time.time > nextTimeToFire && ammo > 0)
         {
-            isShooting = true;
-            animator.SetBool("isShooting", isShooting);
             Fire();
-            isShooting = false;
-            animator.SetBool("isShooting", isShooting);
         }
     }
 
@@ -82,6 +75,7 @@ public class GunPlayer : MonoBehaviour
                     if (hit.transform == enemy.transform)
                     {
                         float dist = Vector3.Distance(enemy.transform.position, transform.position);
+
                         if (dist > range * 0.5f)
                         {
                             enemy.GetDamage(smallDamage);

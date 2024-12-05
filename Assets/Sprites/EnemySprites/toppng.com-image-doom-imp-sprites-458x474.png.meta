@@ -1,0 +1,1465 @@
+fileFormatVersion: 2
+guid: 24b8137ba37257b4f924f664e2becc70
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d57e15aefa1c42838a1f33179ad1b
+      internalID: -2115099055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 413
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d95753238b70cd4da183d0c688c848c
+      internalID: 1409653341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 413
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224c235eb7126e4caf13de9a674c228
+      internalID: 358171976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 413
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11956a36c5e7084785d2a7d7dd473b8
+      internalID: -257615504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 413
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f644971d993247b161aa5bb4a6a77
+      internalID: -1926130781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 413
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4caab5526ba0741a78afb4df3a7737
+      internalID: 756414673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 413
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364cd405378289e4b8206450d5c73a87
+      internalID: -1089467394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a16ee5cb7a94d4b9ad213402d76dac
+      internalID: -60243557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 352
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad0c08aacd968429ff646859c889e6
+      internalID: 1796176319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 352
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce14c998d06c0ba4b973dd0febd952ea
+      internalID: 1907336528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 352
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135202a91b4d17e48a8bee66dd42a506
+      internalID: 324321337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 352
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06f95244f88f754382957b6bcefe78e
+      internalID: -1862633724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 352
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2963ce6420b647c4e81d20ee24a10ac6
+      internalID: -595330484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 352
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6813075064e9b42b603425b6411c45
+      internalID: -1282511268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 296
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5efa5e27c8066a4fa298d09363851e0
+      internalID: -1156140596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 296
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04765a6300e7e4990a64d23893ca3e
+      internalID: -541650181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 296
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f88031fe90f7c047b50279af1c4ffab
+      internalID: -816308325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 296
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552a74ccb04cae4c8542901154e10de
+      internalID: 1079635588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_18
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 296
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e28eed0eb142d4f86cdf416cc9712c
+      internalID: -142044130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 296
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c671000d211177418969d44e27c5299
+      internalID: 1038131488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 296
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb36cf2ec97bb7f40bdbc6abebf3c5bd
+      internalID: 1799851509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a869dbb344706ca4a8497c2f8b65770f
+      internalID: 864331660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 242
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6077a9fa8e211747b88af9275339f5d
+      internalID: 1676546724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 242
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989284463a8c44844bc50d803f970624
+      internalID: 189563281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 242
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6b5afbd7489b14eb15046976f67250
+      internalID: -130434142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 242
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b755cbc2c2ab45adb4b3d99b0f412
+      internalID: -943578490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 242
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe049b8ed04eb247be58b213c76f0e9
+      internalID: 1227174112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 242
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fb029cf30974a498f8819397e376e2
+      internalID: 1686436465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 190
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340463fd01a23048b5204d9a8b379cc
+      internalID: -1263313310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 190
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883fc019183d7b042a67fbe0effa3376
+      internalID: 160456053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 190
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9e4009afa5e64d932be60ae72ca30
+      internalID: -699034230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 190
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821f70b20df73f1448abab535801cc0f
+      internalID: -322107191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 190
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb51b813eb904d47b847b98282df795
+      internalID: -584977965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 190
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6bb033a50295a42b6c1e03e819991c
+      internalID: -2009459715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_34
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 190
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b290cae2aa21f4782629433256df1b
+      internalID: 343013132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 129
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f1e5892dacc944fab61378081b64ab
+      internalID: -798717122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 129
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ac6d10ca4a24b4b9a17918c69a2666
+      internalID: -1057536447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f29b2c85229c26419093d1d652a11aa
+      internalID: -973690532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 129
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0043a57b6024e0a498930de597c4344e
+      internalID: -1232197918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_39
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 129
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc24a8a2d388245978f33207d816ea
+      internalID: 171440775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a8db34cc18da14aa0d389dd38e1843
+      internalID: 1518908312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348d4366f033f9498b764ed4059c726
+      internalID: -1787904133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 64
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e1ce6f69fe0fe4cb31f7e5664ba510
+      internalID: -1035432039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_43
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b766c3631da79a04a9ac821f36494b02
+      internalID: 1335179519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7ac6a2d62c3e9489fb4bcb06a8307d
+      internalID: 1737605067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 64
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b944f2daa13ad4fb909f8538a26291
+      internalID: 435631638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_46
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c778370c71d36a48a958d2002801684
+      internalID: -1349184672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_47
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 64
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacab713b0a3c2d4e9f1548331a750cf
+      internalID: 1951644776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_48
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 64
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2e4ae47ca47f41abbfaef9d7f5386
+      internalID: 1756005936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_49
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 64
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac8b538e72506e49aa20e83131bf866
+      internalID: 419205054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef235971573d07a42885d76078e56aad
+      internalID: -1488540938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482a275db4b7ca24195c484b4cc9fe1c
+      internalID: 1447532478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_52
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100ef3e104bb54f41967c9f1c7e95b73
+      internalID: 466256228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3325b6dadc4e03b4ab0bcdf7c1fc872f
+      internalID: 294980756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efdda3e850962042b4ce1130f16327f
+      internalID: 615683503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_56
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 57
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28d1edbb9209c4bb7e9aa51fa46bb8
+      internalID: -1170909604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf5e4afbc1de284387c533bb8ae817c
+      internalID: 86846023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-image-doom-imp-sprites-458x474_58
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e5574a3ffd9543b4157ce2c486d32
+      internalID: 679077007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8af35a04343efeb49adfa0fac8d66f16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toppng.com-image-doom-imp-sprites-458x474_0: -2115099055
+      toppng.com-image-doom-imp-sprites-458x474_1: 1409653341
+      toppng.com-image-doom-imp-sprites-458x474_10: 324321337
+      toppng.com-image-doom-imp-sprites-458x474_11: -1862633724
+      toppng.com-image-doom-imp-sprites-458x474_12: -595330484
+      toppng.com-image-doom-imp-sprites-458x474_13: -1282511268
+      toppng.com-image-doom-imp-sprites-458x474_14: -1156140596
+      toppng.com-image-doom-imp-sprites-458x474_15: -541650181
+      toppng.com-image-doom-imp-sprites-458x474_16: -816308325
+      toppng.com-image-doom-imp-sprites-458x474_17: 1079635588
+      toppng.com-image-doom-imp-sprites-458x474_18: -142044130
+      toppng.com-image-doom-imp-sprites-458x474_19: 1038131488
+      toppng.com-image-doom-imp-sprites-458x474_2: 358171976
+      toppng.com-image-doom-imp-sprites-458x474_20: 1799851509
+      toppng.com-image-doom-imp-sprites-458x474_21: 864331660
+      toppng.com-image-doom-imp-sprites-458x474_22: 1676546724
+      toppng.com-image-doom-imp-sprites-458x474_23: 189563281
+      toppng.com-image-doom-imp-sprites-458x474_24: -130434142
+      toppng.com-image-doom-imp-sprites-458x474_25: -943578490
+      toppng.com-image-doom-imp-sprites-458x474_26: 1227174112
+      toppng.com-image-doom-imp-sprites-458x474_27: 1686436465
+      toppng.com-image-doom-imp-sprites-458x474_28: -1263313310
+      toppng.com-image-doom-imp-sprites-458x474_29: 160456053
+      toppng.com-image-doom-imp-sprites-458x474_3: -257615504
+      toppng.com-image-doom-imp-sprites-458x474_30: -699034230
+      toppng.com-image-doom-imp-sprites-458x474_31: -322107191
+      toppng.com-image-doom-imp-sprites-458x474_32: -584977965
+      toppng.com-image-doom-imp-sprites-458x474_33: -2009459715
+      toppng.com-image-doom-imp-sprites-458x474_34: 343013132
+      toppng.com-image-doom-imp-sprites-458x474_35: -798717122
+      toppng.com-image-doom-imp-sprites-458x474_36: -1057536447
+      toppng.com-image-doom-imp-sprites-458x474_37: -973690532
+      toppng.com-image-doom-imp-sprites-458x474_38: -1232197918
+      toppng.com-image-doom-imp-sprites-458x474_39: 171440775
+      toppng.com-image-doom-imp-sprites-458x474_4: -1926130781
+      toppng.com-image-doom-imp-sprites-458x474_40: 1518908312
+      toppng.com-image-doom-imp-sprites-458x474_41: -1787904133
+      toppng.com-image-doom-imp-sprites-458x474_42: -1035432039
+      toppng.com-image-doom-imp-sprites-458x474_43: 1335179519
+      toppng.com-image-doom-imp-sprites-458x474_44: 1737605067
+      toppng.com-image-doom-imp-sprites-458x474_45: 435631638
+      toppng.com-image-doom-imp-sprites-458x474_46: -1349184672
+      toppng.com-image-doom-imp-sprites-458x474_47: 1951644776
+      toppng.com-image-doom-imp-sprites-458x474_48: 1756005936
+      toppng.com-image-doom-imp-sprites-458x474_49: 419205054
+      toppng.com-image-doom-imp-sprites-458x474_5: 756414673
+      toppng.com-image-doom-imp-sprites-458x474_50: -1488540938
+      toppng.com-image-doom-imp-sprites-458x474_51: 1447532478
+      toppng.com-image-doom-imp-sprites-458x474_52: 466256228
+      toppng.com-image-doom-imp-sprites-458x474_53: 294980756
+      toppng.com-image-doom-imp-sprites-458x474_54: -896757354
+      toppng.com-image-doom-imp-sprites-458x474_55: 615683503
+      toppng.com-image-doom-imp-sprites-458x474_56: -1170909604
+      toppng.com-image-doom-imp-sprites-458x474_57: 86846023
+      toppng.com-image-doom-imp-sprites-458x474_58: 679077007
+      toppng.com-image-doom-imp-sprites-458x474_6: -1089467394
+      toppng.com-image-doom-imp-sprites-458x474_7: -60243557
+      toppng.com-image-doom-imp-sprites-458x474_8: 1796176319
+      toppng.com-image-doom-imp-sprites-458x474_9: 1907336528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

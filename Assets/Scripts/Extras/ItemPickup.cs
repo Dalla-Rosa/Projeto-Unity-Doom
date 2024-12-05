@@ -22,7 +22,12 @@ public class ItemPickup : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            
+            AudioSource audioSource = GetComponent<AudioSource>();
+            if (audioSource != null)
+            {
+                audioSource.Stop();
+                audioSource.Play();
+            }
             if (isAmmo)
             {
                 GunPlayer gunPlayer = other.GetComponentInChildren<GunPlayer>();
@@ -55,7 +60,6 @@ public class ItemPickup : MonoBehaviour
 
             }
 
-            // Destruir o item após o pickup ser feito
             Destroy(gameObject);
         }
     }

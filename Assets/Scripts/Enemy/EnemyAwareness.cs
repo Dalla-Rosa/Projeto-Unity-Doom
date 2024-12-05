@@ -23,8 +23,8 @@ public class EnemyAwareness : MonoBehaviour
         }
 
         if (isAggro)
-        { 
-            GetComponent<MeshRenderer>().material = aggroMat;
+        {
+            Debug.Log("Está aggrado");
         }
 
 

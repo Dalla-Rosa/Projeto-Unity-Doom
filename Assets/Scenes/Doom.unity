@@ -119,6 +119,39 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2357959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2357960}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2357960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -106.21, y: 13.209999, z: 356.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1125245177}
+  - {fileID: 178019425}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &52366290
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -352,7 +385,7 @@ GameObject:
   - component: {fileID: 178019429}
   - component: {fileID: 178019430}
   m_Layer: 7
-  m_Name: Player
+  m_Name: PlayerBody
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,14 +425,14 @@ Transform:
   m_GameObject: {fileID: 178019422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -106.21, y: 11.71, z: 356.36}
+  m_LocalPosition: {x: 0, y: -1.499999, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
   - {fileID: 1948616073}
   - {fileID: 1465358240}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2357960}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &178019426
 MonoBehaviour:
@@ -2569,7 +2602,7 @@ RectTransform:
   - {fileID: 1634012129}
   - {fileID: 557417715}
   - {fileID: 572384565}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2357960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9788,7 +9821,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 832575519}
-  - {fileID: 178019425}
   - {fileID: 1606705794}
-  - {fileID: 1125245177}
   - {fileID: 655369351}
+  - {fileID: 2357960}

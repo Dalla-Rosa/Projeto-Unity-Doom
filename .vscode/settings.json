@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Projeto-Unity-Doom.sln"
+    "dotnet.defaultSolution": "Projeto-Unity-Doom.sln",
+    "dotnet.preferCSharpExtension": true
 }

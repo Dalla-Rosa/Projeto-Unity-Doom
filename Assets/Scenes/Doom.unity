@@ -159,6 +159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -262.73212
@@ -198,6 +202,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -2120,6 +2140,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -111.60256
@@ -2159,6 +2183,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -5924,6 +5964,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.51552
@@ -5963,6 +6007,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -9444,6 +9504,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -9506,7 +9570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -9517,8 +9581,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -9650,6 +9722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -9712,7 +9788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -9723,8 +9799,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -10041,6 +10125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -163.51257
@@ -10080,6 +10168,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -11242,6 +11346,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -11304,7 +11412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -11315,8 +11423,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -12227,6 +12343,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -12289,7 +12409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -12300,8 +12420,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -13765,6 +13893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -13815,7 +13947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -13826,8 +13958,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -15501,6 +15641,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -15563,7 +15707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -15574,8 +15718,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -16124,6 +16276,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -16186,7 +16342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -16197,8 +16353,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -16243,6 +16407,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -220.87799
@@ -16282,6 +16450,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -16566,6 +16750,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -16624,7 +16812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -16635,8 +16823,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -16662,6 +16858,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -16724,7 +16924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -16735,8 +16935,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -17146,6 +17354,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -17208,7 +17420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -17219,8 +17431,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -17745,6 +17965,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -17807,7 +18031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -17818,8 +18042,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -18396,6 +18628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -18458,7 +18694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -18469,8 +18705,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -19500,7 +19744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -19511,8 +19755,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -19847,6 +20099,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -19909,7 +20165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -19920,8 +20176,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -21848,6 +22112,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -21910,7 +22178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -21921,8 +22189,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -21948,6 +22224,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -22010,7 +22290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -22021,8 +22301,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -25340,6 +25628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -111.0393
@@ -25379,6 +25671,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -25435,6 +25743,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -25497,7 +25809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -25508,8 +25820,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -25680,6 +26000,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -25742,7 +26066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -25753,8 +26077,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -27197,6 +27529,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -27259,7 +27595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -27270,8 +27606,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
@@ -27462,6 +27806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.190605
@@ -27501,6 +27849,22 @@ PrefabInstance:
     - target: {fileID: 3113622505245564248, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8293076511449501386, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Name
@@ -32184,6 +32548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1081488434}
     m_Modifications:
+    - target: {fileID: 516009293175938728, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2189261969380537504, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
       value: 2
@@ -32234,7 +32602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_Height
@@ -32245,8 +32613,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: m_AngularSpeed
-      value: 20
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136943395818445536, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6963171562793749766, guid: d0e4fb204ad4737449d627d8096fae10, type: 3}
       propertyPath: awarenessRadius
